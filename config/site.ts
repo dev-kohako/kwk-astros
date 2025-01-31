@@ -1,69 +1,49 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
+  name: "KWK - Astros",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
-      label: "Home",
+      label: "Inicio",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Astros",
+      href: "/astros",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Sistema Solar",
+      href: "/sistema-solar",
     },
     {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
+      label: "Sobre",
+      href: "/sobre",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Inicio",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Astros",
+      href: "/astros",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Sistema Solar",
+      href: "/sistema-solar",
     },
     {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "Sobre",
+      href: "/sobre",
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    github: "https://github.com/dev-kohako",
+    youtube: "https://www.youtube.com/@dev_kohako",
+    instagram: "https://www.instagram.com/kohako.dev/",
+    linkedin: "www.linkedin.com/in/josephkawe",
+    bento: "https://bento.me/kohako",
   },
 };

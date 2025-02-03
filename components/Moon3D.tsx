@@ -31,7 +31,7 @@ const Moon = () => {
   return (
     <>
       <mesh ref={moonRef} position={[0, 0, 0]}>
-        <sphereGeometry args={[2, 60, 60]} />
+        <sphereGeometry args={[2, 80, 80]} />
         <meshPhongMaterial
           map={texture}
           displacementMap={displacementMap}
